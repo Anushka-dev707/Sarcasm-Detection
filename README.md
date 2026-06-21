@@ -37,26 +37,6 @@ Sarcasm detection is a challenging NLP task because sarcastic statements often e
 * Seaborn
 * Google Colab
 
----
-
-## 📂 Project Structure
-
-```
-Sarcasm-Detection/
-│
-├── Dataset/
-│   ├── Sarcastic_Tweet.xlsx
-│   └── Sarcasm_tweet_truth.xlsx
-│
-├── Images/
-│   ├── Class_Distribution.png
-│   ├── ROC_Curve.png
-│   
-├── Sarcasm_Detection.ipynb
-├── requirements.txt
-├── README.md
-
-```
 
 ---
 
@@ -229,13 +209,13 @@ The ROC curve was generated to evaluate the classifier's ability to distinguish 
 ### Class Distribution After SMOTE
 
 ```markdown
-![Class Distribution](Images/Class_Distribution.png)
+![Class Distribution](Class_Distribution.png)
 ```
 
 ### ROC Curve
 
 ```markdown
-![ROC Curve](Images/ROC_Curve.png)
+![ROC Curve](ROC_Curve.png)
 ```
 
 ---
