@@ -201,79 +201,19 @@ KNeighborsClassifier(n_neighbors=5)
 The ROC curve was generated to evaluate the classifier's ability to distinguish between sarcastic and non-sarcastic tweets.
 
 **AUC Score = 0.8337**
-
----
-
 # 📷 Results
 
 ### Class Distribution After SMOTE
 
-```markdown
 ![Class Distribution](Class_Distribution.png)
-```
 
 ### ROC Curve
 
-```markdown
 ![ROC Curve](ROC_Curve.png)
-```
 
 ---
 
-# 🚀 Installation
 
-Clone the repository
-
-```bash
-git clone https://github.com/Anushka-dev707/Sarcasm-Detection.git
-
-cd Sarcasm-Detection
-```
-
-Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-# 📦 Requirements
-
-Create a `requirements.txt` file containing:
-
-```txt
-numpy
-pandas
-matplotlib
-seaborn
-nltk
-scikit-learn
-imbalanced-learn
-openpyxl
-```
-
-Install using:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-# ▶️ Run
-
-Open Jupyter Notebook or Google Colab:
-
-```bash
-jupyter notebook
-```
-
-Run:
-
-```
-Sarcasm_Detection.ipynb
-```
 
 
 
